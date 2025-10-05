@@ -1,0 +1,69 @@
+    # O Tuan - Terinspirasi dari OST 'Kya Kehna'
+
+# Mendefinisikan fungsi utama lagu
+def o_tuan_kyakehna():
+    # Bagian 1: Mengajak dan Menggoda
+    print("def Bagian_Awal():")
+    print("# Refrain (Diulang 3x)")
+    for i in range(3):
+        # Lirik: "O, O, O, O Tuan..."
+        print(f"print('O, O, O, O Tuan...')") 
+        # Lirik: "...Di mana kau berada, Tuan..."
+        print(f"print('Di mana kau berada, Tuan...')")
+
+    # Bagian 2: Pertanyaan dan Perasaan
+    print("\n# Bagian Pertanyaan dan Kerinduan")
+    tanya = "Apakah_Cinta_Itu_Ada"
+    jawab = "Cari_Sampai_Ketemu"
+    
+    # Lirik: "Katakanlah padaku, Tuan..."
+    print(f"print('Katakanlah padaku, Tuan...')")
+    
+    # Lirik: "Apakah aku harus mencintaimu? (Cek kondisi)"
+    if tanya == "Apakah_Cinta_Itu_Ada":
+        print("print('Aku harus mencintaimu...')")
+    else:
+        print("print('Aku tak bisa menemukanmu...')")
+
+    # Lirik: "Apakah kau akan datang?"
+    print("print('Apakah kau akan datang kembali padaku?')")
+    
+    # Bagian 3: Klimaks dan Janji
+    print("\n# Bagian Janji dan Kepastian (Klimaks)")
+    janji = "Selalu_Bersama"
+    
+    # Lirik: "Dunia berputar, Waktu berjalan..."
+    print("print('Dunia berputar, Waktu berjalan...')")
+    
+    # Lirik: "Tapi janji hatiku adalah (String Janji)"
+    print(f"my_promise = '{janji}'")
+    print("print(f'Tapi janji hatiku adalah: {my_promise}')")
+
+    # Lirik: "O, O, O, O Tuan... (Kembali ke Refrain)"
+    print("\n# Kembali ke Refrain Akhir")
+    print("Bagian_Awal()")
+
+    return "Lagu_Selesai"
+
+# Memanggil fungsi lagu
+print("o_tuan_kyakehna()")
+print("\n# Output (hasil menjalankan fungsi):")
+# Simulasi Output (Agar lebih mudah dibaca)
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("Katakanlah padaku, Tuan...")
+print("Aku harus mencintaimu...")
+print("Apakah kau akan datang kembali padaku?")
+print("Dunia berputar, Waktu berjalan...")
+print("Tapi janji hatiku adalah: Selalu_Bersama")
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("O, O, O, O Tuan...")
+print("Di mana kau berada, Tuan...")
+print("Lagu_Selesai")
